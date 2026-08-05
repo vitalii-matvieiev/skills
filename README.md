@@ -3,55 +3,44 @@
 Agent skills for founders, entrepreneurs and creative people who run their work on AI.
 
 > **You do not need to be a programmer to use these.**
-> If you use Claude in your browser or the desktop app, installing one takes about two minutes. No terminal, no GitHub account, no code. Instructions right below.
+> If you use Claude in your browser or the desktop app, installing one takes about two minutes. No terminal, no GitHub account, no code.
 
-## Install without a terminal
+## What a skill is
 
-Works on every Claude plan, including the free one.
+A skill is a set of instructions an AI agent installs once and then follows on its own. You do not read it, run it, or learn any commands. You describe your situation in plain words, and the agent recognises which skill applies and works through it with you — asking what it needs, in the right order, without you having to know the method.
 
-1. **Download the skill:** [slicing-pie.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/slicing-pie.zip)
-2. In Claude, open **Customize → Skills**
-3. Upload the file and switch the skill on
-4. Start a normal chat and describe your situation in plain words
+Think of it as handing your agent a specialist's checklist instead of hoping it improvises well.
 
-That is it. You never open the file, never read it, never edit anything. Claude does that part.
+## How to install
 
-## Install with a terminal
+Every skill lives in its own folder in this repository. Open the one you need from the list below — each has its own page with a download link and instructions.
 
-For Claude Code, Codex, Cursor, OpenCode and 70+ other agents:
+**Without a terminal.** Download the skill's `.zip` from its page, then in Claude open **Customize → Skills**, upload the file and switch it on. Works on every Claude plan, including the free one.
+
+**With a terminal.** For Claude Code, Codex, Cursor, OpenCode and 70+ other agents:
 
 ```bash
+# everything in this repository
 npx skills add vitalii-matvieiev/skills
-```
 
-One skill instead of all of them:
+# one specific skill
+npx skills add vitalii-matvieiev/skills --skill <skill-name>
 
-```bash
-npx skills add vitalii-matvieiev/skills --skill slicing-pie
-```
-
-See what is inside before installing:
-
-```bash
+# see what is inside before installing
 npx skills add vitalii-matvieiev/skills --list
 ```
 
-## What to say once it is installed
+## How to use one
 
-You do not call the skill by name and you do not learn any commands. You write the way you would to a person, and Claude picks the right skill itself. For `slicing-pie`, any of these works:
+You never call a skill by name. You write to your agent the way you would write to a person — describe the situation, the problem, the decision you are stuck on. The agent picks the right skill itself and starts asking you questions.
 
-- *"We are three co-founders and I want to recalculate our shares fairly."*
-- *"My partner put in $12,000, I work full-time with no salary. What split is fair?"*
-- *"We agreed on 50/50 a year ago and it no longer feels right. Help me redo it."*
-- *"One of our co-founders is leaving. What happens to their share?"*
-
-Claude will ask what it needs — market salary rates, hours, money spent — and give you a table with percentages, a spreadsheet to keep updating, and the questions your team has not answered yet.
+Each skill's page has real examples of what to write.
 
 ## Skills
 
 | Skill | What it does |
 |---|---|
-| [slicing-pie](slicing-pie/) | Splits startup equity between co-founders by actual contribution instead of a handshake 50/50. Calculates the split, sets the moment it freezes, and covers what happens when someone walks away. |
+| **[slicing-pie](slicing-pie/)** | Splits startup equity between co-founders by actual contribution instead of a handshake 50/50. Calculates the split, sets the moment it freezes, covers what happens when someone leaves. |
 
 More coming: offers, funnels, hiring, agent operations.
 
@@ -88,55 +77,44 @@ MIT — use them, fork them, ship them. See [LICENSE](LICENSE).
 Скіли для агентів, призначені фаундерам, підприємцям і креативним людям, які будують свою роботу на AI.
 
 > **Щоб цим користуватися, не треба бути програмістом.**
-> Якщо ви користуєтесь Claude у браузері або в застосунку, встановлення займе близько двох хвилин. Без терміналу, без акаунта на GitHub, без коду. Інструкція одразу нижче.
+> Якщо ви користуєтесь Claude у браузері або в застосунку, встановлення займе близько двох хвилин. Без терміналу, без акаунта на GitHub, без коду.
 
-## Встановлення без терміналу
+## Що таке скіл
 
-Працює на всіх тарифах Claude, включно з безкоштовним.
+Скіл — це набір інструкцій, які AI-агент встановлює один раз і далі виконує сам. Його не треба читати, запускати чи вчити якісь команди. Ви описуєте свою ситуацію звичайними словами, а агент розпізнає, який скіл підходить, і проводить вас через нього — питає те, що йому потрібно, у правильному порядку, і вам не треба знати саму методику.
 
-1. **Завантажте скіл:** [slicing-pie.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/slicing-pie.zip)
-2. У Claude відкрийте **Customize → Skills**
-3. Завантажте файл і увімкніть скіл
-4. Почніть звичайний чат і опишіть свою ситуацію простими словами
+Простіше кажучи: ви даєте агенту чек-лист фахівця замість того, щоб сподіватися, що він вдало зімпровізує.
 
-Це все. Файл не треба відкривати, читати чи редагувати — цим займається Claude.
+## Як встановити
 
-## Встановлення через термінал
+Кожен скіл лежить в окремій папці цього репозиторію. Відкрийте потрібний зі списку нижче — у кожного своя сторінка з посиланням на завантаження та інструкцією.
 
-Для Claude Code, Codex, Cursor, OpenCode і ще 70+ агентів:
+**Без терміналу.** Завантажте `.zip` скіла з його сторінки, потім у Claude відкрийте **Customize → Skills**, завантажте файл і увімкніть. Працює на всіх тарифах Claude, включно з безкоштовним.
+
+**Через термінал.** Для Claude Code, Codex, Cursor, OpenCode і ще 70+ агентів:
 
 ```bash
+# усе, що є в репозиторії
 npx skills add vitalii-matvieiev/skills
-```
 
-Один скіл замість усіх:
+# один конкретний скіл
+npx skills add vitalii-matvieiev/skills --skill <назва-скіла>
 
-```bash
-npx skills add vitalii-matvieiev/skills --skill slicing-pie
-```
-
-Подивитися, що всередині, перед встановленням:
-
-```bash
+# подивитися, що всередині, перед встановленням
 npx skills add vitalii-matvieiev/skills --list
 ```
 
-## Що писати після встановлення
+## Як цим користуватися
 
-Скіл не треба викликати на ім'я, і жодних команд вчити не потрібно. Ви пишете так, як писали б людині, а Claude сам обирає потрібний скіл. Для `slicing-pie` підійде будь-що з такого:
+Скіл ніколи не викликають на ім'я. Ви пишете агенту так, як писали б людині — описуєте ситуацію, проблему, рішення, на якому застрягли. Агент сам обирає потрібний скіл і починає ставити вам питання.
 
-- *«Нас троє співзасновників, хочу справедливо перерахувати частки»*
-- *«Партнер вклав $12 000, я працюю фултайм без зарплати. Як ділити?»*
-- *«Рік тому домовились 50 на 50, зараз це виглядає нечесно. Допоможи перерахувати»*
-- *«Один зі співзасновників виходить із проєкту. Що робити з його часткою?»*
-
-Claude сам запитає те, що йому потрібно — ринкові ставки, години, вкладені гроші — і видасть таблицю з відсотками, файл для щотижневого обліку та питання, на які ваша команда ще не відповіла.
+На сторінці кожного скіла є живі приклади того, що писати.
 
 ## Скіли
 
 | Скіл | Що робить |
 |---|---|
-| [slicing-pie](slicing-pie/) | Ділить частки в стартапі між співзасновниками за реальним внеском, а не за домовленістю «50 на 50 по руках». Рахує розподіл, визначає момент його заморозки й описує, що робити, коли хтось виходить із проєкту. |
+| **[slicing-pie](slicing-pie/)** | Ділить частки в стартапі між співзасновниками за реальним внеском, а не за домовленістю «50 на 50 по руках». Рахує розподіл, визначає момент його заморозки, описує, що робити, коли хтось виходить. |
 
 Далі будуть: офери, воронки, найм, операційка на агентах.
 
