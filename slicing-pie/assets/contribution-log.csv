@@ -1,0 +1,12 @@
+date,participant,type,description,units,unit_value,multiplier,slices
+2026-01-15,Олена,time,"Розробка MVP, тиждень 1",32,25,2,1600
+2026-01-15,Олена,cash,"Оплата хостингу",1,120,4,480
+2026-01-15,Андрій,time,"Продажі, дзвінки клієнтам",12,20,2,480
+2026-01-15,Андрій,expense,"Відрядження на конференцію",1,340,4,1360
+,,,,,,,
+# type: time | cash | expense | equipment | ip
+# units: години для time; 1 для разових сум
+# unit_value: погодинна ринкова ставка (неоплачена частина) або сума в грошах
+# multiplier: 2 для time/equipment/ip, 4 для cash/expense
+# slices = units * unit_value * multiplier
+# частка учасника = його slices / сума всіх slices
