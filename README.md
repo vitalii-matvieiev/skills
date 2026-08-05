@@ -2,8 +2,6 @@
 
 Agent skills for founders, entrepreneurs and creative people who run their work on AI.
 
-[![skills.sh](https://skills.sh/b/vitalii-matvieiev/skills)](https://skills.sh/vitalii-matvieiev/skills)
-
 Most skills you'll find are wrappers around a framework someone read about. These are different: every skill here is a method I have actually run — in my own companies, with my own clients, and paid for when it went wrong. The books, the courses and the mentors are in there, but chewed through years of practice first. What survived became a skill.
 
 Скіли для підприємців, фаундерів і креативних людей, які будують роботу на AI. Кожен скіл — метод, який я реально проганяв через власний бізнес, а не переказ чужої книжки.
