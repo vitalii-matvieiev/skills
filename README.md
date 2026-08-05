@@ -12,7 +12,7 @@ A method becomes a skill in this repository only after it has survived that: run
 
 So you are not getting a summary of a book. You are getting what was left of it after it went through practice.
 
-— [Vitalii Matvieiev](https://www.matvieiev.com)
+— Vitalii Matvieiev · [matvieiev.com](https://www.matvieiev.com) · [LinkedIn](https://www.linkedin.com/in/matvieiev-vitalii/)
 
 ## Install
 
@@ -72,7 +72,7 @@ MIT — use them, fork them, ship them. See [LICENSE](LICENSE).
 
 Тобто ти отримуєш не переказ книжки. Ти отримуєш те, що від неї лишилося після практики.
 
-— [Віталій Матвєєв](https://www.matvieiev.com)
+— Віталій Матвєєв · [matvieiev.com](https://www.matvieiev.com) · [LinkedIn](https://www.linkedin.com/in/matvieiev-vitalii/)
 
 ## Встановлення
 
