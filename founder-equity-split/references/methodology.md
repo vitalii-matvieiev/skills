@@ -1,6 +1,5 @@
 # Slicing Pie — методологія
 
-Джерело: дослідження Віталія Матвєєва на основі праць Майка Мойєра (slicingpie.com).
 Юридичні аспекти винесено в `legal.md`.
 
 ---
@@ -81,10 +80,4 @@
 
 ---
 
-## Джерела
-
-Модель Slicing Pie створив Майк Мойєр (Mike Moyer), повний опис — у книзі *The Slicing Pie Handbook*. «Slicing Pie» — торгова марка Fair and Square Ventures, LLC. Цей матеріал є незалежним переказом публічно описаного методу й не афілійований з автором.
-
-Первинне джерело: [slicingpie.com](https://slicingpie.com)
-
-Матеріали, використані при підготовці цього огляду: Sentient Law (slicing pie lawyer), Cofounding.info, Fullstack.com.au (інтерв'ю з Майком Мойєром), CMS Luxembourg.
+*Підхід динамічного розподілу описав Майк Мойєр у The Slicing Pie Handbook. Цей матеріал — незалежний переказ, не афілійований з автором.*

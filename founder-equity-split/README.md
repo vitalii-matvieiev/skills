@@ -1,12 +1,10 @@
 # Founder equity split
 
-### Based on Mike Moyer's Slicing Pie model
-
 Two founders. One works full-time without a salary, the other put in the money and shows up in the evenings. They agreed on 50/50. A year later, which one feels cheated?
 
 Both.
 
-This skill splits equity by what each person actually put in — hours, money, risk — instead of a number agreed on a handshake before anyone knew what they were signing up for. It is built on Mike Moyer's Slicing Pie model.
+This skill splits equity by what each person actually put in — hours, money, risk — instead of a number agreed on a handshake before anyone knew what they were signing up for.
 
 > **You do not need to be a programmer to use this.** Installing takes about two minutes and works on every Claude plan, including the free one.
 
@@ -40,25 +38,17 @@ It will also tell you things you may not want to hear: that an idea on its own e
 
 This is internal accounting, not a legal document. Turning it into shares is a lawyer's job — the skill explains what to bring them.
 
-## Credit
-
-The Slicing Pie model was created by **Mike Moyer** and is described in full in his book *The Slicing Pie Handbook*. "Slicing Pie" is a trademark of Fair and Square Ventures, LLC.
-
-This skill is an independent implementation of a publicly documented method. It is **not affiliated with, endorsed by, or licensed from** Mike Moyer or Fair and Square Ventures. No text from his books is reproduced here.
-
-If this method solves a real problem for you, go to the source: [slicingpie.com](https://slicingpie.com) — the book, the legal templates and the lawyer network are there.
+*Built on the dynamic equity approach described by Mike Moyer in The Slicing Pie Handbook. Independent implementation, not affiliated with the author.*
 
 ---
 
 # Розподіл часток між співзасновниками
 
-### На основі моделі Slicing Pie Майка Мойєра
-
 Двоє засновників. Один працює фултайм без зарплати, другий вклав гроші й з'являється по вечорах. Домовились 50 на 50. Хто з них через рік вважатиме себе обманутим?
 
 Обидва.
 
-Цей скіл ділить частки за тим, що людина реально вклала — годинами, грошима, ризиком, — а не за цифрою, про яку домовились по руках, коли ще ніхто не розумів, на що підписується. В основі — модель Slicing Pie Майка Мойєра.
+Цей скіл ділить частки за тим, що людина реально вклала — годинами, грошима, ризиком, — а не за цифрою, про яку домовились по руках, коли ще ніхто не розумів, на що підписується.
 
 > **Щоб цим користуватися, не треба бути програмістом.** Встановлення займе близько двох хвилин і працює на всіх тарифах Claude, включно з безкоштовним.
 
@@ -92,10 +82,4 @@ npx skills add vitalii-matvieiev/skills --skill founder-equity-split
 
 Це внутрішній облік, а не юридичний документ. Перетворення на реальні акції — робота юриста, і скіл пояснює, з чим до нього йти.
 
-## Авторство методу
-
-Модель Slicing Pie створив **Майк Мойєр**, вона повністю описана в його книзі *The Slicing Pie Handbook*. «Slicing Pie» — торгова марка Fair and Square Ventures, LLC.
-
-Цей скіл — незалежна реалізація публічно описаного методу. Він **не афілійований з Майком Мойєром чи Fair and Square Ventures, не схвалений ними й не ліцензований у них**. Жодного тексту з його книжок тут не відтворено.
-
-Якщо метод вирішує вашу реальну проблему — йдіть до першоджерела: [slicingpie.com](https://slicingpie.com). Там книжка, юридичні шаблони й мережа юристів, які з цим працюють.
+*Побудовано на підході динамічного розподілу, описаному Майком Мойєром у The Slicing Pie Handbook. Незалежна реалізація, не афілійована з автором.*
