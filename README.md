@@ -40,7 +40,7 @@ Each skill's page has real examples of what to write.
 
 | Skill | What it does |
 |---|---|
-| **[slicing-pie](slicing-pie/)** | Splits startup equity between co-founders by actual contribution instead of a handshake 50/50. Calculates the split, sets the moment it freezes, covers what happens when someone leaves. |
+| **[founder-equity-split](founder-equity-split/)** | Splits startup equity between co-founders by actual contribution instead of a handshake 50/50. Calculates the split, sets the moment it freezes, covers what happens when someone leaves. |
 
 More coming: offers, funnels, hiring, agent operations.
 
@@ -114,7 +114,7 @@ npx skills add vitalii-matvieiev/skills --list
 
 | Скіл | Що робить |
 |---|---|
-| **[slicing-pie](slicing-pie/)** | Ділить частки в стартапі між співзасновниками за реальним внеском, а не за домовленістю «50 на 50 по руках». Рахує розподіл, визначає момент його заморозки, описує, що робити, коли хтось виходить. |
+| **[founder-equity-split](founder-equity-split/)** | Ділить частки в стартапі між співзасновниками за реальним внеском, а не за домовленістю «50 на 50 по руках». Рахує розподіл, визначає момент його заморозки, описує, що робити, коли хтось виходить. |
 
 Далі будуть: офери, воронки, найм, операційка на агентах.
 

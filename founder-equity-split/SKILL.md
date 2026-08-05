@@ -1,5 +1,5 @@
 ---
-name: slicing-pie
+name: founder-equity-split
 description: "Split startup equity fairly between co-founders using Mike Moyer's Slicing Pie dynamic equity model. Use when someone asks how to divide shares between founders, whether a 50/50 split is fair, how to account for one founder working full-time while another only invests money, what to do when a co-founder leaves, or mentions Slicing Pie, dynamic equity, or a cap table for an early startup. Українською також — розподіл часток між співзасновниками, хто скільки отримає в стартапі, справедливий поділ бізнесу, партнер вийшов із проєкту."
 ---
 

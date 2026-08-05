@@ -1,4 +1,6 @@
-# Slicing Pie — fair equity split between co-founders
+# Founder equity split
+
+### Based on Mike Moyer's Slicing Pie model
 
 Two founders. One works full-time without a salary, the other put in the money and shows up in the evenings. They agreed on 50/50. A year later, which one feels cheated?
 
@@ -10,7 +12,7 @@ This skill splits equity by what each person actually put in — hours, money, r
 
 ## Install without a terminal
 
-1. **Download:** [slicing-pie.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/slicing-pie.zip)
+1. **Download:** [founder-equity-split.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/founder-equity-split.zip)
 2. In Claude, open **Customize → Skills**
 3. Upload the file and switch the skill on
 4. Start a normal chat and describe your situation in plain words
@@ -18,7 +20,7 @@ This skill splits equity by what each person actually put in — hours, money, r
 ## Install with a terminal
 
 ```bash
-npx skills add vitalii-matvieiev/skills --skill slicing-pie
+npx skills add vitalii-matvieiev/skills --skill founder-equity-split
 ```
 
 ## What to say to it
@@ -48,7 +50,9 @@ If this method solves a real problem for you, go to the source: [slicingpie.com]
 
 ---
 
-# Slicing Pie — справедливий розподіл часток між співзасновниками
+# Розподіл часток між співзасновниками
+
+### На основі моделі Slicing Pie Майка Мойєра
 
 Двоє засновників. Один працює фултайм без зарплати, другий вклав гроші й з'являється по вечорах. Домовились 50 на 50. Хто з них через рік вважатиме себе обманутим?
 
@@ -60,7 +64,7 @@ If this method solves a real problem for you, go to the source: [slicingpie.com]
 
 ## Встановлення без терміналу
 
-1. **Завантажте:** [slicing-pie.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/slicing-pie.zip)
+1. **Завантажте:** [founder-equity-split.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/founder-equity-split.zip)
 2. У Claude відкрийте **Customize → Skills**
 3. Завантажте файл і увімкніть скіл
 4. Почніть звичайний чат і опишіть свою ситуацію простими словами
@@ -68,7 +72,7 @@ If this method solves a real problem for you, go to the source: [slicingpie.com]
 ## Встановлення через термінал
 
 ```bash
-npx skills add vitalii-matvieiev/skills --skill slicing-pie
+npx skills add vitalii-matvieiev/skills --skill founder-equity-split
 ```
 
 ## Що йому писати
