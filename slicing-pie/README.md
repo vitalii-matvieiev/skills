@@ -38,6 +38,14 @@ It will also tell you things you may not want to hear: that an idea on its own e
 
 This is internal accounting, not a legal document. Turning it into shares is a lawyer's job — the skill explains what to bring them.
 
+## Credit
+
+The Slicing Pie model was created by **Mike Moyer** and is described in full in his book *The Slicing Pie Handbook*. "Slicing Pie" is a trademark of Fair and Square Ventures, LLC.
+
+This skill is an independent implementation of a publicly documented method. It is **not affiliated with, endorsed by, or licensed from** Mike Moyer or Fair and Square Ventures. No text from his books is reproduced here.
+
+If this method solves a real problem for you, go to the source: [slicingpie.com](https://slicingpie.com) — the book, the legal templates and the lawyer network are there.
+
 ---
 
 # Slicing Pie — справедливий розподіл часток між співзасновниками
@@ -79,3 +87,11 @@ npx skills add vitalii-matvieiev/skills --skill slicing-pie
 Він також скаже речі, які, можливо, не хочеться чути: що ідея сама по собі не дає нічого, доки хтось не вклав у неї час або гроші, і що ставка, яку ви собі призначаєте, має бути такою, яку ви реально могли б отримати деінде.
 
 Це внутрішній облік, а не юридичний документ. Перетворення на реальні акції — робота юриста, і скіл пояснює, з чим до нього йти.
+
+## Авторство методу
+
+Модель Slicing Pie створив **Майк Мойєр**, вона повністю описана в його книзі *The Slicing Pie Handbook*. «Slicing Pie» — торгова марка Fair and Square Ventures, LLC.
+
+Цей скіл — незалежна реалізація публічно описаного методу. Він **не афілійований з Майком Мойєром чи Fair and Square Ventures, не схвалений ними й не ліцензований у них**. Жодного тексту з його книжок тут не відтворено.
+
+Якщо метод вирішує вашу реальну проблему — йдіть до першоджерела: [slicingpie.com](https://slicingpie.com). Там книжка, юридичні шаблони й мережа юристів, які з цим працюють.
