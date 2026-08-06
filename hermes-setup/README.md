@@ -10,42 +10,35 @@ The distance between those two things is not a piece of software. It is about te
 
 ## What is inside
 
-This is not one skill — it is ten, working as a plugin. You never call them by name; the right one starts on its own from what you describe.
+Ten stages, one skill. You never name them; it works out from what you describe which one you are on and opens it.
 
-| Skill | When it turns on |
+| Stage | When it comes up |
 | --- | --- |
-| `hermes-start` | The navigator. Where you are, which deployment branch fits, what the route looks like |
-| `hermes-install` | From nothing to the first message from your agent |
-| `hermes-messenger` | Telegram and other channels, the home channel for background reports |
-| `hermes-models` | Which model, how to get access, and above all what it will cost |
-| `hermes-profile` | Character and business context. Cures "the agent answers in generalities" |
-| `hermes-security` | Confirmations, allow lists, keys, isolation, backups |
-| `hermes-tools` | Search, knowledge base, mail, calendar, spreadsheets |
-| `hermes-agent-skills` | Turning a one-off good result into a permanent skill |
-| `hermes-cron` | Scheduled work: the agent works while you sleep |
-| `hermes-doctor` | Anything broken on an agent that already exists |
+| Start | Where you are, which deployment branch fits, what the route looks like |
+| Install | From nothing to the first message from your agent |
+| Messenger | Telegram and other channels, the home channel for background reports |
+| Models | Which model, how to get access, and above all what it will cost |
+| Profile | Character and business context. Cures "the agent answers in generalities" |
+| Security | Confirmations, allow lists, keys, isolation, backups |
+| Tools | Search, knowledge base, mail, calendar, spreadsheets |
+| Agent skills | Turning a one-off good result into a permanent skill |
+| Schedule | Scheduled work: the agent works while you sleep |
+| Doctor | Anything broken on an agent that already exists |
 
 The minimum working set is the first four plus security. The rest gets added as you go.
 
-## Install as a plugin
+## Install without a terminal
 
-In Claude Code:
+1. **Download:** [hermes-setup.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/hermes-setup.zip)
+2. In Claude, open **Customize → Skills**
+3. Upload the file and switch the skill on
+4. Start a normal chat and say what you want
 
-```
-/plugin marketplace add vitalii-matvieiev/skills
-/plugin install hermes-setup@matvieiev
-```
-
-## Install by hand
-
-Every folder inside `hermes-setup/skills/` is a self-contained skill. Copy the ones you want into `~/.claude/skills/`:
+## Install with a terminal
 
 ```bash
-git clone https://github.com/vitalii-matvieiev/skills.git
-cp -R skills/hermes-setup/skills/hermes-* ~/.claude/skills/
+npx skills add vitalii-matvieiev/skills --skill hermes-setup
 ```
-
-If you work in the browser or the desktop app instead, zip a single skill folder and upload it in **Customize → Skills**. Start with `hermes-start` — it will tell you which one you need next.
 
 ## What to say to it
 
@@ -92,42 +85,35 @@ The default branch is your own server, because that is what makes the agent inde
 
 ## Що всередині
 
-Це не один скіл, а десять, зібраних у плагін. На ім'я їх викликати не треба — потрібний вмикається сам із того, що ти опишеш.
+Десять етапів, один скіл. На ім'я їх називати не треба — він сам розбирає з того, що ти описав, на якому ти етапі, і відкриває потрібний.
 
-| Скіл | Коли вмикається |
+| Етап | Коли доходить черга |
 | --- | --- |
-| `hermes-start` | Навігатор. Де ти зараз, яка гілка розгортання підходить, як виглядає маршрут |
-| `hermes-install` | Від нуля до першого повідомлення від агента |
-| `hermes-messenger` | Telegram та інші канали, домашній канал для фонових звітів |
-| `hermes-models` | Яку модель, як отримати доступ і головне — скільки це коштуватиме |
-| `hermes-profile` | Характер і бізнес-контекст. Лікує «агент відповідає загально» |
-| `hermes-security` | Підтвердження дій, білий список, ключі, ізоляція, копії |
-| `hermes-tools` | Пошук, база знань, пошта, календар, таблиці |
-| `hermes-agent-skills` | Перетворення разового вдалого результату на постійну навичку |
-| `hermes-cron` | Робота за розкладом: агент працює, поки ти спиш |
-| `hermes-doctor` | Будь-яка поломка вже встановленого агента |
+| Старт | Де ти зараз, яка гілка розгортання підходить, як виглядає маршрут |
+| Установка | Від нуля до першого повідомлення від агента |
+| Месенджер | Telegram та інші канали, домашній канал для фонових звітів |
+| Моделі | Яку модель, як отримати доступ і головне — скільки це коштуватиме |
+| Профіль | Характер і бізнес-контекст. Лікує «агент відповідає загально» |
+| Безпека | Підтвердження дій, білий список, ключі, ізоляція, копії |
+| Інструменти | Пошук, база знань, пошта, календар, таблиці |
+| Навички | Перетворення разового вдалого результату на постійну навичку |
+| Розклад | Робота за розкладом: агент працює, поки ти спиш |
+| Діагностика | Будь-яка поломка вже встановленого агента |
 
 Мінімальний робочий набір — перші чотири плюс безпека. Решта додається поступово.
 
-## Встановлення як плагін
+## Встановлення без терміналу
 
-У Claude Code:
+1. **Завантаж:** [hermes-setup.zip](https://github.com/vitalii-matvieiev/skills/releases/latest/download/hermes-setup.zip)
+2. У Claude відкрий **Customize → Skills**
+3. Завантаж файл і увімкни скіл
+4. Почни звичайний чат і скажи, чого хочеш
 
-```
-/plugin marketplace add vitalii-matvieiev/skills
-/plugin install hermes-setup@matvieiev
-```
-
-## Встановлення вручну
-
-Кожна тека всередині `hermes-setup/skills/` — самодостатній скіл. Скопіюй потрібні в `~/.claude/skills/`:
+## Встановлення через термінал
 
 ```bash
-git clone https://github.com/vitalii-matvieiev/skills.git
-cp -R skills/hermes-setup/skills/hermes-* ~/.claude/skills/
+npx skills add vitalii-matvieiev/skills --skill hermes-setup
 ```
-
-Якщо працюєш у браузері або в застосунку — заархівуй теку одного скіла й завантаж її в **Customize → Skills**. Починай із `hermes-start`, він сам скаже, який потрібен наступним.
 
 ## Що йому писати
 
