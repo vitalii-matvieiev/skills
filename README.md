@@ -41,6 +41,7 @@ Each skill's page has real examples of what to write.
 | Skill | What it does |
 |---|---|
 | **[founder-equity-split](founder-equity-split/)** | Splits startup equity between co-founders by actual contribution instead of a handshake 50/50. Calculates the split, sets the moment it freezes, covers what happens when someone leaves. |
+| **[meta-ads](meta-ads/)** | Audits, launches and optimises Facebook and Instagram campaigns against what a customer may actually cost you — not against dashboard metrics. Reads your live ad account. Changes nothing without your explicit yes. Requires the Meta ads connector. |
 
 More coming: offers, funnels, hiring, agent operations.
 
@@ -115,6 +116,7 @@ npx skills add vitalii-matvieiev/skills --list
 | Скіл | Що робить |
 |---|---|
 | **[founder-equity-split](founder-equity-split/)** | Ділить частки в стартапі між співзасновниками за реальним внеском, а не за домовленістю «50 на 50 по руках». Рахує розподіл, визначає момент його заморозки, описує, що робити, коли хтось виходить. |
+| **[meta-ads](meta-ads/)** | Розбирає, запускає й оптимізує рекламу у Facebook та Instagram за тим, скільки насправді може коштувати клієнт, а не за метриками кабінету. Читає ваш живий рекламний акаунт. Нічого не змінює без вашого прямого «так». Потрібен конектор реклами Meta. |
 
 Далі будуть: офери, воронки, найм, операційка на агентах.
 
