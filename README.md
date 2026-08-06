@@ -42,6 +42,7 @@ Each skill's page has real examples of what to write.
 |---|---|
 | **[founder-equity-split](founder-equity-split/)** | Splits startup equity between co-founders by actual contribution instead of a handshake 50/50. Calculates the split, sets the moment it freezes, covers what happens when someone leaves. |
 | **[meta-ads](meta-ads/)** | Audits, launches and optimises Facebook and Instagram campaigns against what a customer may actually cost you — not against dashboard metrics. Reads your live ad account. Changes nothing without your explicit yes. Requires the Meta ads connector. |
+| **[hermes-setup](hermes-setup/)** | Takes you from nothing to your own AI agent living on a server: where it should run, what it costs, what it is allowed to touch, and how to fix it when it breaks. Ten skills working as one plugin, built around never having to use the terminal. |
 
 More coming: offers, funnels, hiring, agent operations.
 
@@ -117,6 +118,7 @@ npx skills add vitalii-matvieiev/skills --list
 |---|---|
 | **[founder-equity-split](founder-equity-split/)** | Ділить частки в стартапі між співзасновниками за реальним внеском, а не за домовленістю «50 на 50 по руках». Рахує розподіл, визначає момент його заморозки, описує, що робити, коли хтось виходить. |
 | **[meta-ads](meta-ads/)** | Розбирає, запускає й оптимізує рекламу у Facebook та Instagram за тим, скільки насправді може коштувати клієнт, а не за метриками кабінету. Читає ваш живий рекламний акаунт. Нічого не змінює без вашого прямого «так». Потрібен конектор реклами Meta. |
+| **[hermes-setup](hermes-setup/)** | Веде від нуля до власного AI-агента, який живе на сервері: де йому працювати, скільки це коштує, до чого його можна пускати і що робити, коли зламається. Десять скілів в одному плагіні, побудовані так, щоб не довелося користуватися терміналом. |
 
 Далі будуть: офери, воронки, найм, операційка на агентах.
 

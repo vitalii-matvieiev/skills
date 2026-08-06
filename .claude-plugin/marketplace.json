@@ -1,0 +1,14 @@
+{
+  "name": "matvieiev",
+  "owner": {
+    "name": "Vitalii Matvieiev",
+    "url": "https://www.matvieiev.com"
+  },
+  "plugins": [
+    {
+      "name": "hermes-setup",
+      "source": "./hermes-setup",
+      "description": "Takes a non-technical founder from nothing to a working personal AI agent: deployment branch, installation, messenger, models and budget, character and business context, security, integrations, skills, scheduling and breakdown diagnosis."
+    }
+  ]
+}
